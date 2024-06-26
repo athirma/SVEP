@@ -33,13 +33,15 @@ Predictionofthesequencesbyusingdataset3.m is the code to predict the SARS-CoV-2 
 Draw circles.m
 
 
+## Data Preparation 
 The tool comprises several MATLAB mats:
-1. dataset1.mat
-2. dataset2.mat
-3. dataset3.mat
+1. dataset1.mat: dataset-1 including only unique sequences
+2. dataset2.mat: dataset-2 including only unique sequences
+3. dataset3.mat: dataset-3 including only unique sequences
 4. pn1.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-1.
 5. pn2.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-2.
 6. pn3.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-3.
+
 
 ## Comparison for screening 
 The tool comprises the code for the benchmark comparison of models (Bi-LSTM model, Logistic model, KNN model, Decision Tree, SVEP...) :
