@@ -6,9 +6,9 @@ This is the implementation of SVEP in the paper: [A Predictive Language Model fo
 - Python (3.7)
 - MATLAB R2020b
 
-
+## Description
 The tool comprises three primary sections:
-1. bil code developed in Python (3.7) for training Bi-LSTM language models.
+### 1. bil code developed in Python (3.7) for training Bi-LSTM language models.
 modelTrain.py
 bioModel.py
 
@@ -20,7 +20,7 @@ torch	          1.12.1
 typing-extensions 4.4.0  	
 
 
-2. Sequence generation code in MATLAB R2020b for generating SARS-CoV-2 variants.
+### 2. Sequence generation code in MATLAB R2020b for generating SARS-CoV-2 variants.
 Restorethedataset1.m is the code to simulate and restore the SARS-CoV-2 variants in dataset1.
 Restorethedataset2.m is the code to simulate and restore the SARS-CoV-2 variants in dataset2.
 Restorethedataset3.m is the code to simulate and restore the SARS-CoV-2 variants in dataset3.
@@ -29,11 +29,11 @@ Predictionofthesequencesbyusingdataset2.m is the code to predict the SARS-CoV-2 
 Predictionofthesequencesbyusingdataset3.m is the code to predict the SARS-CoV-2 variants based on dataset3.
 
 
-3. Figure drawing code in MATLAB R2020b.
+### 3. Figure drawing code in MATLAB R2020b.
 Draw circles.m
 
 
-The tool comprises several MaATLAB mats:
+The tool comprises several MATLAB mats:
 1. dataset1.mat
 2. dataset2.mat
 3. dataset3.mat
@@ -41,13 +41,13 @@ The tool comprises several MaATLAB mats:
 5. pn2.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-2.
 6. pn3.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-3.
 
-
-The tool comprises the code for the comparison of models (Bi-LSTM model, Logistic model, KNN model, Decision Tree, SVEP...) :
+## Comparison for screening 
+The tool comprises the code for the benchmark comparison of models (Bi-LSTM model, Logistic model, KNN model, Decision Tree, SVEP...) :
 modelTrain_1.py
 compare.py
 
 
-Usage of bil
+## Usage
 1. Download and save all the files (including the well trained Bi-LSTM model), and set files to MATLAB path
 2. Open the MATLAB file (e.g., "Restorethedataset1"), and define model parameters: sequence generation number (num), mutation frequency of  hotspots (1-alpha), and more mutable hotspot mutation frequency (1-h).
 3. Click "Run"; results will be displayed in the command window and workspace.
