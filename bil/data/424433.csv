@@ -1,0 +1,13 @@
+X,X,T,1
+X,L,T,1
+X,L,X,1
+Y,X,X,1
+Y,L,X,1
+Y,X,T,1
+Y,L,I,1
+Y,L,V,0
+C,L,T,0
+C,L,X,0
+X,L,I,0
+X,X,I,0
+Y,I,T,0
