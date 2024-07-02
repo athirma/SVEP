@@ -41,6 +41,7 @@ The tool comprises several MATLAB mats:
 4. pn1.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-1.
 5. pn2.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-2.
 6. pn3.mat is the occurance frequency of the dominant amino acid at each hotspot in dataset-3.
+7. datsets.zip contains the raw data of dataset-1, dataset-2, dataset-3
 
 
 ## Comparison for screening 
@@ -53,4 +54,3 @@ compare.py
 1. Download and save all the files (including the well trained Bi-LSTM model), and set files to MATLAB path
 2. Open the MATLAB file (e.g., "Restorethedataset1"), and define model parameters: sequence generation number (num), mutation frequency of  hotspots (1-alpha), and more mutable hotspot mutation frequency (1-h).
 3. Click "Run"; results will be displayed in the command window and workspace.
-
